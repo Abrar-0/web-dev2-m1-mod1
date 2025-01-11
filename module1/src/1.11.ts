@@ -22,11 +22,12 @@
     const isAuthenticated = null
 
     const result1 = isAuthenticated ?? 'Guest'
-    const result2 = isAuthenticated ? isAuthenticated : 'Guest'
-    console.log({result1}, {result2})
-
+    const result2 = isAuthenticated ? isAuthenticated : 'Hello'
+    console.log({result1}, {result2}) //result1 is 'Guest' while result2 is 'Hello'
+    //The ?? operator only checks for null or undefined.
+    //The ternary operator evaluates truthiness (falsy values include 0, false, "", NaN, null, and undefined)
+    
     //optional chaining
-
     type User = {
         name:string;
         address:{
@@ -45,5 +46,5 @@
     }
 
     const permanentAddress = user?.address?.postalCode ?? 'N/A';
-    console.log({permanentAddress})
+    console.log({permanentAddress}) ////permanentAddress is 'N/A'
 }

@@ -19,6 +19,6 @@
     const myFriends = ['Chandler', 'Joey', 'Ross', 'Monica', 'Rachel', 'Phoebe'];
 
     //const [a,b,c] = myFriends;
-    const [,,,c, ...rest] = myFriends;
+    const [,,,c, ...rest] = myFriends; //skipping first 3 elements and storing the rest in rest
 }
 

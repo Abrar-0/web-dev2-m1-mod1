@@ -1,6 +1,6 @@
 {
     //type assertion
-    let anything : any;
+    let anything : any; //any type can be assigned to any type
     anything = "Hello";
 
     (anything as string).toUpperCase();
@@ -17,9 +17,9 @@
     }   
 
     const case1 = kgtogm(12) as number
-    const case2 = kgtogm("2") as number
+    const case2 = kgtogm("2") as number 
 
-    console.log(case2)
+    console.log(case2) 
 
 
     type errorMsg ={

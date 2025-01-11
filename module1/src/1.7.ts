@@ -14,18 +14,19 @@
 
   bros1.push(...bros2);
 
+
   const mentors = {
     typescript: "John",
     javascript: "Jane",
     python: "Mary",
-  }
+  } 
 
   const mentors2 = {
     nextjs: "John",
     react: "Jane",
     nodejs: "Mary",
   }
-
+  //destructuring
   const mentor ={...mentors, ...mentors2};
 
 

@@ -10,7 +10,8 @@
         }
     }
 
-    searchName(null)
+    searchName('h') //Searching
+    searchName(null) //Nothing
 
     //unknown type
 
@@ -27,7 +28,7 @@
         }
     }
 
-    getSpeed(null)
+    getSpeed(null) //Invalid input
 
     //never type
 

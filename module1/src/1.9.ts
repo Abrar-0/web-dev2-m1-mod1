@@ -4,7 +4,7 @@
   type User = {
     name: string;
     age: number;
-    address?: string;
+    address?: string; //optional property
     phone?: number;
   };
 
@@ -20,12 +20,14 @@
     phone: 123456789,
   };
 
+  //type alias with union
   type UserName = string
   type isAdmin = boolean
   const userName: UserName = "John Doe";
   const isAdmin: isAdmin = true;
 
+
+  //type alias with intersection 
   type Add = (x: number, y: number) => number;
-  
   const add : Add = (num1, num2) => num1 + num2;
 }

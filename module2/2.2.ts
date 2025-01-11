@@ -48,5 +48,5 @@
         (num1:number, num2:number) : number
     }
     
-    const add1 : Add1 = (num1, num2) => num1 + num2
+    const add1 : Add2 = (num1, num2) => num1 + num2 //can be Add1 also
 }

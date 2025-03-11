@@ -13,7 +13,7 @@
     type genericType<T> = Array<T>
 
     const rollNums : genericType<number> = [1,2,3,4];
-    const mentorss : genericType<String> =  ['A','B','C'];
+    const mentorss : genericType<string> =  ['A','B','C'];
     const boolss : genericType<boolean> = [true,false,true];
 
     const user : genericType <{name: string , age: number}> = [
